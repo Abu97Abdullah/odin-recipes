@@ -1,0 +1,17 @@
+img {
+    height: 500px;
+    width: auto;
+}
+
+.recipe-name {
+    background-color: bisque;
+    text-align: center;
+    font-family: "Courier New", sans-serif;
+}
+
+p.source {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: brown;
+}
