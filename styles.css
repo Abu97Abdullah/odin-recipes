@@ -1,12 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
 img {
-    height: 500px;
+    display: block;
+    height: 400px;
     width: auto;
 }
 
+.center-image {
+    margin: 0px auto;
+}
+
+body {
+    background-color: rgb(246, 242, 236);
+}
+
 .recipe-name {
-    background-color: bisque;
+    background-color: white;
     text-align: center;
-    font-family: "Courier New", sans-serif;
+    color: rgb(94, 0, 0);
 }
 
 p.source {
@@ -14,4 +27,33 @@ p.source {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     color: brown;
+}
+
+.page-title {
+    text-align: center;
+    color: rgb(94, 0, 0);
+}
+
+.homepage-list {
+    padding: 0 100px 0 100px;
+}
+
+.homepage-list li{
+    background-color: white;
+    padding: 5px 10px;
+    list-style: none;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+
+.homepage-list li:hover{
+    background-color: gold;
+}
+
+
+
+li a {
+    text-decoration: none;
 }
